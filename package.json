@@ -16,15 +16,13 @@
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
-    "db:reset": "prisma db push --force-reset && npm run db:seed",
-    "postinstall": "prisma generate"
+    "db:reset": "prisma db push --force-reset && npm run db:seed"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
-    "prisma": "^6.19.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
@@ -32,6 +30,7 @@
     "@prisma/client": "^6.6.0",
     "bcryptjs": "^3.0.2",
     "dotenv": "^16.4.7",
-    "embedded-postgres": "17.6.0-beta.15"
+    "embedded-postgres": "17.6.0-beta.15",
+    "prisma": "^6.19.3"
   }
 }
