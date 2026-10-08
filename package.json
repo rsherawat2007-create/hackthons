@@ -2,7 +2,10 @@
   "name": "creatorhub-ai",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["client", "server"],
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "description": "CreatorHub AI — AI-native content creator marketplace",
   "scripts": {
     "setup": "node scripts/ensure-postgres.mjs && prisma generate && prisma db push && tsx prisma/seed.ts",
@@ -21,7 +24,7 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
-    "prisma": "^6.6.0",
+    "prisma": "^6.19.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
