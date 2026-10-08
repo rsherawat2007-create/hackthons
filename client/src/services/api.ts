@@ -409,19 +409,40 @@ function handleMockFallback<T>(path: string, options: RequestInit = {}): T {
 
   // 14. Dashboards
   if (pathname === "/api/dashboard/brand") {
+    const briefs = getStoredBriefs();
+    const shortlists = getStoredShortlist().map((cid) => ({
+      creator: mockCreators.find((cr) => cr.id === cid) || mockCreators[0]
+    }));
+    const engagements = getStoredEngagements();
     return {
-      briefsCount: getStoredBriefs().length,
-      engagementsCount: getStoredEngagements().length,
-      shortlistCount: getStoredShortlist().length,
-      recentBriefs: getStoredBriefs().slice(0, 3),
-      recentEngagements: getStoredEngagements().slice(0, 3)
+      stats: {
+        activeBriefs: briefs.length,
+        shortlisted: shortlists.length,
+        contacted: engagements.length,
+        projects: engagements.filter((e) => e.status === "IN_PROGRESS" || e.status === "COMPLETED" || e.status === "ACCEPTED").length
+      },
+      briefs,
+      shortlists,
+      engagements,
+      searches: [
+        { query: "Cinematic sneaker commercials 30s", createdAt: new Date().toISOString() },
+        { query: "Photoreal luxury watch motion", createdAt: new Date().toISOString() }
+      ],
+      recommended: mockCreators.slice(0, 4)
     } as T;
   }
 
   if (pathname === "/api/dashboard/creator") {
+    const engagements = getStoredEngagements();
     return {
-      engagements: getStoredEngagements(),
-      metrics: { totalViews: 1420, completedProjects: 8, rating: 4.95 }
+      profile: mockCreators[0],
+      stats: {
+        requests: engagements.filter((e) => e.status === "PENDING").length,
+        active: engagements.filter((e) => e.status === "IN_PROGRESS").length,
+        completed: engagements.filter((e) => e.status === "COMPLETED").length,
+        trustScore: mockCreators[0].trustScore || 94
+      },
+      engagements
     } as T;
   }
 
