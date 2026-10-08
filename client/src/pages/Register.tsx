@@ -39,15 +39,20 @@ function passwordStrength(pw: string): { score: number; label: string; color: st
 }
 
 /* ── Google button ───────────────────────────────────────────────────────── */
-function GoogleButton({ label, disabled }: { label: string; disabled?: boolean }) {
-  function handleGoogle() {
-    toast.info("Google sign-in is coming soon. Use email & password for now.");
-  }
+function GoogleButton({
+  label,
+  disabled,
+  onClick,
+}: {
+  label: string;
+  disabled?: boolean;
+  onClick: () => void;
+}) {
   return (
     <button
       type="button"
       disabled={disabled}
-      onClick={handleGoogle}
+      onClick={onClick}
       className={cn(
         "flex w-full items-center justify-center gap-3 rounded-xl border border-ink/10 bg-white px-4 py-3 text-sm font-semibold text-ink shadow-sm transition hover:bg-violet-50 disabled:pointer-events-none disabled:opacity-50"
       )}
@@ -127,7 +132,7 @@ function RoleCard({
    Step 2: Fill details + submit
 ═══════════════════════════════════════════════════════════════════════════ */
 export function Register() {
-  const { register } = useAuth();
+  const { register, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
   const [params] = useSearchParams();
 
@@ -154,6 +159,23 @@ export function Register() {
   }>({});
 
   const strength = password ? passwordStrength(password) : null;
+
+  async function handleGoogleRegister() {
+    setLoading(true);
+    setErrors({});
+    try {
+      const user = await loginWithGoogle(role);
+      toast.success(`Account created with Google as ${user.name}!`);
+      const dest = user.role === "CREATOR" ? "/dashboard/creator" : "/dashboard/brand";
+      navigate(dest, { replace: true });
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Google registration failed";
+      setErrors({ form: msg });
+      toast.error(msg);
+    } finally {
+      setLoading(false);
+    }
+  }
 
   function validateStep2() {
     const e: typeof errors = {};
@@ -210,7 +232,11 @@ export function Register() {
           </div>
 
           <div className="rounded-3xl border border-white/80 bg-white/80 p-8 shadow-card backdrop-blur-xl">
-            <GoogleButton label="Continue with Google" />
+            <GoogleButton
+              label={`Continue with Google (${role === "BRAND" ? "Brand" : "Creator"})`}
+              disabled={loading}
+              onClick={handleGoogleRegister}
+            />
 
             <Divider />
 

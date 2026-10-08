@@ -19,15 +19,20 @@ function FieldError({ msg }: { msg?: string }) {
 }
 
 /* ── Google button ───────────────────────────────────────────────────────── */
-function GoogleButton({ label, disabled }: { label: string; disabled?: boolean }) {
-  function handleGoogle() {
-    toast.info("Google sign-in is coming soon. Use email & password for now.");
-  }
+function GoogleButton({
+  label,
+  disabled,
+  onClick,
+}: {
+  label: string;
+  disabled?: boolean;
+  onClick: () => void;
+}) {
   return (
     <button
       type="button"
       disabled={disabled}
-      onClick={handleGoogle}
+      onClick={onClick}
       className={cn(
         "flex w-full items-center justify-center gap-3 rounded-xl border border-ink/10 bg-white px-4 py-3 text-sm font-semibold text-ink shadow-sm transition hover:bg-violet-50 disabled:pointer-events-none disabled:opacity-50"
       )}
@@ -59,7 +64,7 @@ function Divider() {
    LOGIN
 ═══════════════════════════════════════════════════════════════════════════ */
 export function Login() {
-  const { login } = useAuth();
+  const { login, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const from = (location.state as { from?: string } | null)?.from ?? null;
@@ -76,6 +81,23 @@ export function Login() {
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) e.email = "Enter a valid email address";
     if (!password) e.password = "Password is required";
     return e;
+  }
+
+  async function handleGoogleLogin() {
+    setLoading(true);
+    setErrors({});
+    try {
+      const user = await loginWithGoogle("BRAND");
+      toast.success(`Signed in with Google as ${user.name}!`);
+      const dest = from ?? (user.role === "CREATOR" ? "/dashboard/creator" : "/dashboard/brand");
+      navigate(dest, { replace: true });
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Google sign-in failed";
+      setErrors({ form: msg });
+      toast.error(msg);
+    } finally {
+      setLoading(false);
+    }
   }
 
   async function onSubmit(e: React.FormEvent) {
@@ -119,7 +141,11 @@ export function Login() {
 
         <div className="rounded-3xl border border-white/80 bg-white/80 p-8 shadow-card backdrop-blur-xl">
           {/* Google */}
-          <GoogleButton label="Continue with Google" disabled={loading} />
+          <GoogleButton
+            label="Continue with Google"
+            disabled={loading}
+            onClick={handleGoogleLogin}
+          />
 
           <Divider />
 

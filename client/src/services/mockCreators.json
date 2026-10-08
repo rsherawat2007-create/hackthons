@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "creator-1",
+    "headline": "Cinematic AI product films for premium brands",
+    "bio": "Director specializing in AI-native product advertisements. I combine Runway Gen-3, Sora, and practical lighting plates to deliver commercial-ready 9:16 and 16:9 films for footwear, devices, and automotive launches.",
+    "location": "Los Angeles, USA",
+    "avatarUrl": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&q=80",
+    "experience": "6 years in motion / 3 years AI production",
+    "experienceYears": 6,
+    "commercialUse": true,
+    "commercialNotes": "All showcased work is cleared for paid social and OOH with documented prompt + plate licensing.",
+    "workflow": "1) Shot bible and product CAD/photo capture 2) Midjourney look-dev 3) Runway Gen-3 motion plates with camera moves 4) Sora hero inserts 5) Flame-style composite and grade in DaVinci 6) Platform crops + usage report.",
+    "trustScore": 92,
+    "skills": [
+      "AI Video Direction",
+      "Product Cinematography",
+      "Motion Design",
+      "Color Grading",
+      "Prompt Art Direction"
+    ],
+    "specializations": [
+      "AI Video",
+      "Product Advertisement",
+      "Marketing Content"
+    ],
+    "tools": [
+      "Runway",
+      "Sora",
+      "Midjourney",
+      "Adobe Firefly",
+      "DaVinci Resolve"
+    ],
+    "aiModels": [
+      "Runway Gen-3",
+      "Sora",
+      "Flux"
+    ],
+    "contentTypes": [
+      "AI Video",
+      "Video",
+      "Motion Graphics"
+    ],
+    "portfolio": [
+      {
+        "id": "port-1-1",
+        "creatorId": "creator-1",
+        "title": "Apex Night Sprint — Premium Sneaker Film",
+        "description": "30-second cinematic AI advertisement for a limited sneaker drop. Wet asphalt, neon signage, macro foam-texture inserts, and a confident night runner silhouette.",
+        "mediaUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway",
+          "Sora",
+          "Midjourney"
+        ],
+        "aiModelsUsed": [
+          "Runway Gen-3",
+          "Sora"
+        ],
+        "skills": [
+          "Product Cinematography",
+          "AI Video Direction"
+        ],
+        "aspectRatio": "9:16",
+        "commercialUse": true,
+        "date": "2026-06-12",
+        "category": "Product Advertisement",
+        "workflow": "Look-dev stills → Runway motion → Sora hero insert → grade.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-1-2",
+        "creatorId": "creator-1",
+        "title": "Studio Orbit Watch Spot",
+        "description": "Luxury product orbit with generative reflections and commercial-safe materials.",
+        "mediaUrl": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway",
+          "Adobe Firefly"
+        ],
+        "aiModelsUsed": [
+          "Runway Gen-3"
+        ],
+        "skills": [
+          "Product Cinematography",
+          "Color Grading"
+        ],
+        "aspectRatio": "16:9",
+        "commercialUse": true,
+        "date": "2026-03-02",
+        "category": "Product Advertisement",
+        "workflow": "Product photography + generative extension + motion interpolate.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      },
+      {
+        "id": "port-1-3",
+        "creatorId": "creator-1",
+        "title": "City Pack Launch Cutdowns",
+        "description": "A family of 6s and 15s cutdowns for paid Instagram traffic.",
+        "mediaUrl": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway",
+          "Sora"
+        ],
+        "aiModelsUsed": [
+          "Sora"
+        ],
+        "skills": [
+          "Motion Design",
+          "Marketing Content"
+        ],
+        "aspectRatio": "9:16",
+        "commercialUse": true,
+        "date": "2025-11-20",
+        "category": "Social Media Content",
+        "workflow": "Master 30s → platform-safe recrops with type-safe end cards.",
+        "isFeatured": false,
+        "featuredOrder": 2
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-1",
+      "name": "Maya Chen",
+      "email": "maya@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-2",
+    "headline": "AI video ads with athletic energy and material truth",
+    "bio": "Former agency editor now building AI product videos for sportswear. Obsessed with fabric physics, camera language, and briefs that actually ship.",
+    "location": "Mumbai, India",
+    "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+    "experience": "8 years editorial / 2 years gen video",
+    "experienceYears": 8,
+    "commercialUse": true,
+    "commercialNotes": "Commercial license packs delivered with every engagement. No celebrity likeness.",
+    "workflow": "Brief deconstruction, reference boards, Runway motion tests, fabric-accurate stills, editorial pacing, legal usage sheet.",
+    "trustScore": 92,
+    "skills": [
+      "AI Video Direction",
+      "Editing",
+      "Product Cinematography",
+      "Sound Design"
+    ],
+    "specializations": [
+      "AI Video",
+      "Product Advertisement",
+      "Social Media Content"
+    ],
+    "tools": [
+      "Runway",
+      "Kling",
+      "ChatGPT",
+      "Adobe Firefly"
+    ],
+    "aiModels": [
+      "Runway Gen-3",
+      "Kling 1.6"
+    ],
+    "contentTypes": [
+      "AI Video",
+      "Video"
+    ],
+    "portfolio": [
+      {
+        "id": "port-2-1",
+        "creatorId": "creator-2",
+        "title": "Velocity Foam — Court Film",
+        "description": "High-energy sneaker product video with generative crowd bokeh and legal-safe athletes.",
+        "mediaUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway",
+          "Kling"
+        ],
+        "aiModelsUsed": [
+          "Runway Gen-3"
+        ],
+        "skills": [
+          "AI Video Direction",
+          "Editing"
+        ],
+        "aspectRatio": "9:16",
+        "commercialUse": true,
+        "date": "2026-05-01",
+        "category": "Product Advertisement",
+        "workflow": "Runway plates + editorial cut + mix.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-2-2",
+        "creatorId": "creator-2",
+        "title": "Monsoon Pack Socials",
+        "description": "15s vertical ads emphasizing weatherproof materials.",
+        "mediaUrl": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway"
+        ],
+        "aiModelsUsed": [
+          "Runway Gen-3"
+        ],
+        "skills": [
+          "Social Media Content"
+        ],
+        "aspectRatio": "9:16",
+        "commercialUse": true,
+        "date": "2026-01-18",
+        "category": "Social Media Content",
+        "workflow": "Prompted rain plates, product composite, captions.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-2",
+      "name": "Arjun Mehta",
+      "email": "arjun@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-3",
+    "headline": "Motion graphics + generative animation for brand worlds",
+    "bio": "I fuse After Effects craft with Runway and Firefly to build logo worlds, packshots, and kinetic type for launches.",
+    "location": "Mexico City, Mexico",
+    "avatarUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
+    "experience": "5 years motion design",
+    "experienceYears": 5,
+    "commercialUse": true,
+    "commercialNotes": "Brand-kit safe. Type and logo supplied by client; generative only for environments.",
+    "workflow": "Styleframes in Midjourney → motion tests in Runway → AE finishing → Lottie/MP4 delivery.",
+    "trustScore": 92,
+    "skills": [
+      "Motion Graphics",
+      "Animation",
+      "Art Direction",
+      "Typography"
+    ],
+    "specializations": [
+      "Motion Graphics",
+      "Animation",
+      "AI Branding"
+    ],
+    "tools": [
+      "Runway",
+      "Adobe Firefly",
+      "Midjourney",
+      "After Effects"
+    ],
+    "aiModels": [
+      "Firefly Video",
+      "Flux"
+    ],
+    "contentTypes": [
+      "Motion Graphics",
+      "Animation",
+      "AI Video"
+    ],
+    "portfolio": [
+      {
+        "id": "port-3-1",
+        "creatorId": "creator-3",
+        "title": "Neon Identity System",
+        "description": "Animated brand world with generative particles and custom type.",
+        "mediaUrl": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "Motion Graphics",
+        "toolsUsed": [
+          "Runway",
+          "Adobe Firefly"
+        ],
+        "aiModelsUsed": [
+          "Firefly Video"
+        ],
+        "skills": [
+          "Motion Graphics",
+          "AI Branding"
+        ],
+        "aspectRatio": "16:9",
+        "commercialUse": true,
+        "date": "2026-04-11",
+        "category": "AI Branding",
+        "workflow": "Styleframes, motion, brand lockup.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-3-2",
+        "creatorId": "creator-3",
+        "title": "Packshot Ballet",
+        "description": "Product orbit with generative caustics for a fragrance line.",
+        "mediaUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway",
+          "Midjourney"
+        ],
+        "aiModelsUsed": [
+          "Flux"
+        ],
+        "skills": [
+          "Animation",
+          "Product Cinematography"
+        ],
+        "aspectRatio": "4:5",
+        "commercialUse": true,
+        "date": "2025-12-08",
+        "category": "Product Advertisement",
+        "workflow": "Look-dev stills to motion interpolate.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-3",
+      "name": "Sofia Alvarez",
+      "email": "sofia@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-4",
+    "headline": "Still-image worldbuilding for luxury campaigns",
+    "bio": "Generative photographer. Midjourney, ComfyUI, and Firefly pipelines for print, OOH, and e-commerce hero stills.",
+    "location": "Tokyo, Japan",
+    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    "experience": "10 years photography",
+    "experienceYears": 10,
+    "commercialUse": true,
+    "commercialNotes": "Full commercial stills with model-release-free scenes and documented seeds.",
+    "workflow": "Art direction → Midjourney/ComfyUI → inpaint → print grade → usage memo.",
+    "trustScore": 92,
+    "skills": [
+      "Generative Imaging",
+      "Art Direction",
+      "Retouching",
+      "Prompt Engineering"
+    ],
+    "specializations": [
+      "AI Image Generation",
+      "AI Branding",
+      "Product Advertisement"
+    ],
+    "tools": [
+      "Midjourney",
+      "ComfyUI",
+      "Adobe Firefly",
+      "DALL-E"
+    ],
+    "aiModels": [
+      "Midjourney v6",
+      "SDXL",
+      "Flux"
+    ],
+    "contentTypes": [
+      "Image",
+      "AI Image Generation"
+    ],
+    "portfolio": [
+      {
+        "id": "port-4-1",
+        "creatorId": "creator-4",
+        "title": "Silent Pavilion — Fragrance Stills",
+        "description": "Editorial stills with architectural calm and product honesty.",
+        "mediaUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Image Generation",
+        "toolsUsed": [
+          "Midjourney",
+          "ComfyUI"
+        ],
+        "aiModelsUsed": [
+          "Midjourney v6"
+        ],
+        "skills": [
+          "Art Direction",
+          "Generative Imaging"
+        ],
+        "aspectRatio": "4:5",
+        "commercialUse": true,
+        "date": "2026-02-14",
+        "category": "AI Branding",
+        "workflow": "Prompt library + ControlNet pose + grade.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-4-2",
+        "creatorId": "creator-4",
+        "title": "Object Studies",
+        "description": "Catalog-ready product stills with generative surfaces.",
+        "mediaUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Image Generation",
+        "toolsUsed": [
+          "Adobe Firefly",
+          "DALL-E"
+        ],
+        "aiModelsUsed": [
+          "Firefly 3"
+        ],
+        "skills": [
+          "Retouching",
+          "Product Advertisement"
+        ],
+        "aspectRatio": "1:1",
+        "commercialUse": true,
+        "date": "2025-09-30",
+        "category": "Product Advertisement",
+        "workflow": "Reference capture, generative extend, retouch.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      },
+      {
+        "id": "port-4-3",
+        "creatorId": "creator-4",
+        "title": "Textile Atlas",
+        "description": "Macro material library for apparel lookbooks.",
+        "mediaUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Image Generation",
+        "toolsUsed": [
+          "ComfyUI",
+          "Stable Diffusion"
+        ],
+        "aiModelsUsed": [
+          "SDXL"
+        ],
+        "skills": [
+          "Generative Imaging"
+        ],
+        "aspectRatio": "3:2",
+        "commercialUse": true,
+        "date": "2025-07-12",
+        "category": "Marketing Content",
+        "workflow": "LoRA on fabric photos, tiled exports.",
+        "isFeatured": false,
+        "featuredOrder": 2
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-4",
+      "name": "Kenji Tanaka",
+      "email": "kenji@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-5",
+    "headline": "Always-on social content systems with AI production",
+    "bio": "I help brands ship weekly generative social without looking sloppy. Scripts, stills, short video, and community-safe captions.",
+    "location": "Bengaluru, India",
+    "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+    "experience": "4 years social / 2 years AI ops",
+    "experienceYears": 4,
+    "commercialUse": true,
+    "commercialNotes": "Platform-safe commercial content. No unlicensed music or faces.",
+    "workflow": "Content calendar → ChatGPT scripts → Midjourney stills → Runway cutdowns → scheduling kit.",
+    "trustScore": 92,
+    "skills": [
+      "Social Strategy",
+      "Copywriting",
+      "Short-form Video",
+      "Prompt Ops"
+    ],
+    "specializations": [
+      "Social Media Content",
+      "Marketing Content",
+      "AI Video"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Runway",
+      "Midjourney",
+      "CapCut"
+    ],
+    "aiModels": [
+      "GPT-4o",
+      "Runway Gen-3"
+    ],
+    "contentTypes": [
+      "Social",
+      "AI Video",
+      "Image"
+    ],
+    "portfolio": [
+      {
+        "id": "port-5-1",
+        "creatorId": "creator-5",
+        "title": "30-Day Drop Calendar",
+        "description": "Always-on generative social system for a DTC apparel brand.",
+        "mediaUrl": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "Social",
+        "toolsUsed": [
+          "ChatGPT",
+          "Midjourney"
+        ],
+        "aiModelsUsed": [
+          "GPT-4o"
+        ],
+        "skills": [
+          "Social Strategy",
+          "Copywriting"
+        ],
+        "aspectRatio": "4:5",
+        "commercialUse": true,
+        "date": "2026-04-02",
+        "category": "Social Media Content",
+        "workflow": "Calendar, stills, captions, variants.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-5-2",
+        "creatorId": "creator-5",
+        "title": "Reel Pack: Ingredient Stories",
+        "description": "15s educational reels with generative B-roll.",
+        "mediaUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Runway",
+          "ChatGPT"
+        ],
+        "aiModelsUsed": [
+          "Runway Gen-3"
+        ],
+        "skills": [
+          "Short-form Video"
+        ],
+        "aspectRatio": "9:16",
+        "commercialUse": true,
+        "date": "2026-01-09",
+        "category": "Marketing Content",
+        "workflow": "Script → B-roll → captions.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-5",
+      "name": "Priya Nair",
+      "email": "priya@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-6",
+    "headline": "AI branding systems and campaign worlds",
+    "bio": "I design identity systems that start generative and end production-ready: color, type, motion rules, and asset libraries.",
+    "location": "Milan, Italy",
+    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+    "experience": "7 years branding",
+    "experienceYears": 7,
+    "commercialUse": true,
+    "commercialNotes": "Brand IP assigned to client. Generative references logged.",
+    "workflow": "Positioning workshop → visual territories in Midjourney/Firefly → lockups → motion rules.",
+    "trustScore": 92,
+    "skills": [
+      "Brand Strategy",
+      "Art Direction",
+      "Generative Imaging",
+      "Motion Rules"
+    ],
+    "specializations": [
+      "AI Branding",
+      "Marketing Content",
+      "AI Image Generation"
+    ],
+    "tools": [
+      "Midjourney",
+      "Adobe Firefly",
+      "ChatGPT",
+      "Figma"
+    ],
+    "aiModels": [
+      "Midjourney v6",
+      "Firefly 3"
+    ],
+    "contentTypes": [
+      "Image",
+      "Motion Graphics",
+      "AI Branding"
+    ],
+    "portfolio": [
+      {
+        "id": "port-6-1",
+        "creatorId": "creator-6",
+        "title": "Northstar Rebrand Territories",
+        "description": "Three visual territories for a creative agency refresh.",
+        "mediaUrl": "https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Branding",
+        "toolsUsed": [
+          "Midjourney",
+          "Adobe Firefly"
+        ],
+        "aiModelsUsed": [
+          "Midjourney v6"
+        ],
+        "skills": [
+          "Brand Strategy",
+          "Art Direction"
+        ],
+        "aspectRatio": "16:9",
+        "commercialUse": true,
+        "date": "2026-03-21",
+        "category": "AI Branding",
+        "workflow": "Territories, lockups, motion chips.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-6-2",
+        "creatorId": "creator-6",
+        "title": "Capsule Lookbook",
+        "description": "Fashion campaign stills with a consistent generative lighting rig.",
+        "mediaUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Image Generation",
+        "toolsUsed": [
+          "Midjourney"
+        ],
+        "aiModelsUsed": [
+          "Midjourney v6"
+        ],
+        "skills": [
+          "Generative Imaging"
+        ],
+        "aspectRatio": "4:5",
+        "commercialUse": true,
+        "date": "2025-10-05",
+        "category": "Marketing Content",
+        "workflow": "Character sheet + lighting LoRA.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-6",
+      "name": "Luca Rossi",
+      "email": "luca@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-7",
+    "headline": "Character animation and stylized AI worlds",
+    "bio": "I build characters and short animated loops with Runway, Kaiber, and hand-drawn pass-throughs.",
+    "location": "Dakar, Senegal",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "experience": "6 years animation",
+    "experienceYears": 6,
+    "commercialUse": true,
+    "commercialNotes": "Original characters. No third-party IP mashups.",
+    "workflow": "Character bible → stills → Runway/Kaiber motion → hand-fix pass → sound.",
+    "trustScore": 92,
+    "skills": [
+      "Character Design",
+      "Animation",
+      "Storyboarding",
+      "Worldbuilding"
+    ],
+    "specializations": [
+      "Animation",
+      "AI Video",
+      "Motion Graphics"
+    ],
+    "tools": [
+      "Runway",
+      "Kaiber",
+      "Midjourney",
+      "Procreate"
+    ],
+    "aiModels": [
+      "Runway Gen-3",
+      "Kaiber 2"
+    ],
+    "contentTypes": [
+      "Animation",
+      "AI Video"
+    ],
+    "portfolio": [
+      {
+        "id": "port-7-1",
+        "creatorId": "creator-7",
+        "title": "Harbor Sprite Loop",
+        "description": "Stylized character loop for a game teaser.",
+        "mediaUrl": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "Animation",
+        "toolsUsed": [
+          "Runway",
+          "Midjourney"
+        ],
+        "aiModelsUsed": [
+          "Runway Gen-3"
+        ],
+        "skills": [
+          "Character Design",
+          "Animation"
+        ],
+        "aspectRatio": "1:1",
+        "commercialUse": true,
+        "date": "2026-02-02",
+        "category": "Animation",
+        "workflow": "Bible, still, motion, paint-over.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-7-2",
+        "creatorId": "creator-7",
+        "title": "Festival Opener",
+        "description": "30s stylized opener with generative crowd energy.",
+        "mediaUrl": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb8?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb8?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Kaiber",
+          "Runway"
+        ],
+        "aiModelsUsed": [
+          "Kaiber 2"
+        ],
+        "skills": [
+          "Worldbuilding",
+          "Animation"
+        ],
+        "aspectRatio": "16:9",
+        "commercialUse": true,
+        "date": "2025-08-19",
+        "category": "Motion Graphics",
+        "workflow": "Boards to generative pass.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-7",
+      "name": "Amina Diallo",
+      "email": "amina@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-8",
+    "headline": "Sora-first cinematic storytelling",
+    "bio": "I treat Sora and Runway like a virtual studio. Narrative spots, automotive, and travel films with a documentary eye.",
+    "location": "London, UK",
+    "avatarUrl": "https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=400&q=80",
+    "experience": "9 years documentary / 2 years gen video",
+    "experienceYears": 9,
+    "commercialUse": true,
+    "commercialNotes": "Travel and automotive work cleared for global paid media.",
+    "workflow": "Treatment → animatic → Sora hero takes → Runway coverage → documentary grade.",
+    "trustScore": 92,
+    "skills": [
+      "Cinematography",
+      "AI Video Direction",
+      "Treatment Writing",
+      "Soundscapes"
+    ],
+    "specializations": [
+      "AI Video",
+      "Marketing Content"
+    ],
+    "tools": [
+      "Sora",
+      "Runway",
+      "ChatGPT",
+      "DaVinci Resolve"
+    ],
+    "aiModels": [
+      "Sora",
+      "Runway Gen-3"
+    ],
+    "contentTypes": [
+      "AI Video",
+      "Video"
+    ],
+    "portfolio": [
+      {
+        "id": "port-8-1",
+        "creatorId": "creator-8",
+        "title": "Coastal GT",
+        "description": "Cinematic automotive film with generative weather and legal-safe plates.",
+        "mediaUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Sora",
+          "Runway"
+        ],
+        "aiModelsUsed": [
+          "Sora"
+        ],
+        "skills": [
+          "Cinematography",
+          "AI Video Direction"
+        ],
+        "aspectRatio": "16:9",
+        "commercialUse": true,
+        "date": "2026-05-22",
+        "category": "Marketing Content",
+        "workflow": "Treatment, Sora, coverage, grade.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-8-2",
+        "creatorId": "creator-8",
+        "title": "Night Market Cut",
+        "description": "Travel brand film with handheld energy.",
+        "mediaUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "Sora"
+        ],
+        "aiModelsUsed": [
+          "Sora"
+        ],
+        "skills": [
+          "Treatment Writing"
+        ],
+        "aspectRatio": "16:9",
+        "commercialUse": true,
+        "date": "2025-12-01",
+        "category": "AI Video",
+        "workflow": "Doc-style prompts, selects, mix.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-8",
+      "name": "Noah Brooks",
+      "email": "noah@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-9",
+    "headline": "Photoreal product ads with DALL-E and Stable Diffusion",
+    "bio": "I specialize in catalog and paid-social stills that survive legal review. ControlNet, product masks, and commercial lighting.",
+    "location": "Berlin, Germany",
+    "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80",
+    "experience": "5 years CGI adjacent",
+    "experienceYears": 5,
+    "commercialUse": true,
+    "commercialNotes": "Product-true geometry. Client CAD preferred. Commercial-use stills only.",
+    "workflow": "Product mask → ControlNet → SD/DALL-E lighting variants → retouch.",
+    "trustScore": 92,
+    "skills": [
+      "Product Visualization",
+      "ControlNet",
+      "Retouching",
+      "Paid Social Crops"
+    ],
+    "specializations": [
+      "Product Advertisement",
+      "AI Image Generation"
+    ],
+    "tools": [
+      "DALL-E",
+      "Stable Diffusion",
+      "ComfyUI",
+      "Photoshop"
+    ],
+    "aiModels": [
+      "DALL-E 3",
+      "SDXL"
+    ],
+    "contentTypes": [
+      "Image",
+      "AI Image Generation"
+    ],
+    "portfolio": [
+      {
+        "id": "port-9-1",
+        "creatorId": "creator-9",
+        "title": "Sneaker Ghost Studio",
+        "description": "Accurate product stills on infinite cyclorama with material close-ups.",
+        "mediaUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Image Generation",
+        "toolsUsed": [
+          "Stable Diffusion",
+          "ComfyUI"
+        ],
+        "aiModelsUsed": [
+          "SDXL"
+        ],
+        "skills": [
+          "Product Visualization",
+          "Retouching"
+        ],
+        "aspectRatio": "1:1",
+        "commercialUse": true,
+        "date": "2026-03-08",
+        "category": "Product Advertisement",
+        "workflow": "Mask, ControlNet, retouch.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-9-2",
+        "creatorId": "creator-9",
+        "title": "Device Prism",
+        "description": "Hero stills for a consumer electronics drop.",
+        "mediaUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Image Generation",
+        "toolsUsed": [
+          "DALL-E",
+          "Photoshop"
+        ],
+        "aiModelsUsed": [
+          "DALL-E 3"
+        ],
+        "skills": [
+          "Paid Social Crops"
+        ],
+        "aspectRatio": "4:5",
+        "commercialUse": true,
+        "date": "2025-11-11",
+        "category": "Product Advertisement",
+        "workflow": "Angle set, lighting variants.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-9",
+      "name": "Elena Volkov",
+      "email": "elena@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  },
+  {
+    "id": "creator-10",
+    "headline": "UGC-native AI creators for performance ads",
+    "bio": "I make generative UGC that still feels human: talking-head adjacent, product-in-hand, hook-first scripts for Meta and TikTok.",
+    "location": "Austin, USA",
+    "avatarUrl": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80",
+    "experience": "3 years performance creative",
+    "experienceYears": 3,
+    "commercialUse": true,
+    "commercialNotes": "No real-person clones. Stylized presenters only. Ads are commercially licensed.",
+    "workflow": "Hook library → ChatGPT variants → Midjourney presenters → Runway lip-sync-safe B-roll.",
+    "trustScore": 92,
+    "skills": [
+      "Performance Creative",
+      "UGC Direction",
+      "Copywriting",
+      "Short-form Video"
+    ],
+    "specializations": [
+      "Social Media Content",
+      "Marketing Content",
+      "Product Advertisement"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Runway",
+      "CapCut"
+    ],
+    "aiModels": [
+      "GPT-4o",
+      "Runway Gen-3"
+    ],
+    "contentTypes": [
+      "Social",
+      "AI Video",
+      "Image"
+    ],
+    "portfolio": [
+      {
+        "id": "port-10-1",
+        "creatorId": "creator-10",
+        "title": "Hook Farm — 12 UGC Ads",
+        "description": "Performance ad set for a wellness SKU with generative presenters.",
+        "mediaUrl": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "AI Video",
+        "toolsUsed": [
+          "ChatGPT",
+          "Runway"
+        ],
+        "aiModelsUsed": [
+          "GPT-4o"
+        ],
+        "skills": [
+          "Performance Creative",
+          "UGC Direction"
+        ],
+        "aspectRatio": "9:16",
+        "commercialUse": true,
+        "date": "2026-04-28",
+        "category": "Social Media Content",
+        "workflow": "Hooks, variants, cutdowns.",
+        "isFeatured": true,
+        "featuredOrder": 0
+      },
+      {
+        "id": "port-10-2",
+        "creatorId": "creator-10",
+        "title": "Unbox Still Set",
+        "description": "Lifestyle stills that pair with UGC video.",
+        "mediaUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+        "contentType": "Image",
+        "toolsUsed": [
+          "Midjourney"
+        ],
+        "aiModelsUsed": [
+          "Midjourney v6"
+        ],
+        "skills": [
+          "Copywriting"
+        ],
+        "aspectRatio": "4:5",
+        "commercialUse": true,
+        "date": "2026-02-17",
+        "category": "Marketing Content",
+        "workflow": "Prompted hands + product composite.",
+        "isFeatured": false,
+        "featuredOrder": 1
+      }
+    ],
+    "verification": {
+      "profileStrength": 92,
+      "verifiedBadge": true,
+      "score": 92
+    },
+    "user": {
+      "id": "user-10",
+      "name": "Harper Quinn",
+      "email": "harper@creatorhub.ai",
+      "phoneVerified": true,
+      "phoneMasked": "+1 *** 892"
+    }
+  }
+]
