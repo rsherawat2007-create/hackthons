@@ -32,8 +32,9 @@ npx tsx prisma/seed.ts
 npm run dev
 ```
 
-- App: http://localhost:5173
+- local: http://localhost:5173
 - API: http://localhost:4000/api/health
+- Public Url : https://hackthons-ivory.vercel.app/
 
 Optional: set `OPENAI_API_KEY` in `.env`. Without a key, the AI Brief Builder uses a realistic demo fallback.
 
